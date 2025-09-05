@@ -14,10 +14,10 @@ git branch -M main
 git remote | findstr "origin" >nul
 if %errorlevel%==0 (
     echo ℹ️ Remote 'origin' sudah ada, update URL...
-    git remote set-url origin https://github.com/affiers/code
+    git remote set-url origin https://github.com/affiers/Pertemuan-1
 ) else (
     echo ➕ Menambahkan remote 'origin'
-    git remote add origin https://github.com/affiers/code
+    git remote add origin https://github.com/affiers/Pertemuan-1
 )
 
 :: Tambahkan semua file
